@@ -69,43 +69,44 @@ export default defineConfigWithTheme<ThemeConfig>({
   // sitemap: {
   //   hostname: 'https://vitepress-theme-bluearchive.vercel.app',
   // },
-  title: "Sensei's 部落格",
-  description: "Sensei's 部落格",
+  title: "Yucky's Lonely Home",
+  description: "A small and warm home.",
   themeConfig: {
     // navBar
     menuList: [
       { name: '首页', url: '' },
       { name: '标签', url: 'tags/' },
+      { name: 'Photos', url: 'photos/'},
     ],
 
     //banner区配置
     videoBanner: false,
-    name: "Sensei's 部落格",
+    name: "Yucky's Lonely Home",
     welcomeText: 'Hello, VitePress',
     motto: ['和你的日常，就是奇迹', '何気ない日常で、ほんの少しの奇跡を見つける物語。'],
     social: [
       { icon: 'github', url: 'https://github.com/' },
-      { icon: 'bilibili', url: 'https://www.bilibili.com/' },
-      { icon: 'qq', url: 'https://im.qq.com/index/' },
-      { icon: 'wechat', url: 'https://weixin.qq.com/' },
+      // { icon: 'bilibili', url: 'https://www.bilibili.com/' },
+      // { icon: 'qq', url: 'https://im.qq.com/index/' },
+      // { icon: 'wechat', url: 'https://weixin.qq.com/' },
     ],
 
     //spine语音配置，可选zh/jp
     spineVoiceLang: 'jp',
 
     //footer配置
-    footerName: 'Sensei',
+    footerName: 'Yucky',
     poweredList: [
       { name: 'VitePress', url: 'https://github.com/vuejs/vitepress' },
       { name: 'GitHub Pages', url: 'https://docs.github.com/zh/pages' },
     ],
 
     //gitalk配置
-    clientID: 'Ov23lia9U9wFN3WMyoKK',
-    clientSecret: 'b2418ab598c188c43a247c99e728dd2735d58c3b',
-    repo: 'vitepress-theme-bluearchive',
-    owner: 'Alittfre',
-    admin: ['Alittfre'],
+    clientID: 'Iv23lijHYAmweZqWTfq7',
+    clientSecret: 'e7c7438bc29eaad4f6d5bcc12acf2998268a95d9',
+    repo: 'Yukirotasaki.github.io',
+    owner: 'yukirotasaki',
+    admin: ['yukirotasaki'],
   },
   markdown: {
     theme: 'solarized-dark',
